@@ -10,7 +10,9 @@ first order ODE and then we solve the heat equation in 2D with particular bounda
 ## Heat equation solution
 
 The heat equation is 
+
 $$\frac{\partial u}{\partial t} = \alpha(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} )$$
+
 we work with the boundary conditions given by u(x, y=1, t) = 100; u(x=1, y, t) = 0; u(x, y=0, t) = 0; u(x=0, y0, t) = 0 and see the evolution of the heat map in the 2D space. 
 ![image](https://github.com/user-attachments/assets/ede3a40c-10e9-4896-b12a-edada494446d)
 For impirically testing which ansatz to choose we selected 5 ansatz from Sim et. al's paper and evaluated if there was any correlation between expressibility and trainig accuracy of the model. 
